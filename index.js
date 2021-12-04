@@ -1,6 +1,8 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkDown = require("./utils/generateMarkdown");
+const { error } = require("console");
+
 //generate questions in command line
 
 inquirer.prompt([
@@ -61,7 +63,7 @@ inquirer.prompt([
 	},
 ])
 	.then((response) =>
-		fs.writeToFile("index.html", generateMarkDown(response), err)
+		fs.writeToFile("README.md", generateMarkDown(response))
 	)
 	.then(() => console.log("Successfully wrote to README.md"))
 	.catch((err) => console.error(err));
