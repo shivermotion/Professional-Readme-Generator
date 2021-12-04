@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-
+const generateMarkDown = require("./utils/generateMarkdown");
 //generate questions in command line
 
 inquirer.prompt([
