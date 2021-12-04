@@ -61,7 +61,7 @@ inquirer.prompt([
 	},
 ])
 	.then((response) =>
-		fs.writeFileSync("index.html", generateMarkDown(response), err)
+		fs.writeToFile("index.html", generateMarkDown(response), err)
 	)
 	.then(() => console.log("Successfully wrote to README.md"))
 	.catch((err) => console.error(err));
