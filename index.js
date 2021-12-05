@@ -18,6 +18,11 @@ inquirer.prompt([
 	},
 	{
 		type: "input",
+		name: "profile",
+		message: "What is your GitHub profile url?",
+	},
+	{
+		type: "input",
 		name: "email",
 		message: "What is your email?",
 	},
