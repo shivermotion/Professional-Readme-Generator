@@ -55,6 +55,6 @@ function generateMarkdown(response) {
       ##email:
       ${response.email}
       ##profile:
-      ${response.profile}
+      https://github.com/${response.profile}
       `;
 }
