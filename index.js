@@ -63,7 +63,8 @@ inquirer.prompt([
 	},
 ])
 	.then((response) =>
-		fs.writeToFile("README.md", generateMarkDown(response))
+		fs.writeFile("README.md", generateMarkDown(response), error)
 	)
+
 	.then(() => console.log("Successfully wrote to README.md"))
-	.catch((err) => console.error(err));
+	.catch((error) => console.error(error));

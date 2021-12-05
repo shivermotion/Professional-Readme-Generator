@@ -1,14 +1,18 @@
-// // TODO: Create a function that returns a license badge based on which license is passed in
-// // If there is no license, return an empty string
-// function renderLicenseBadge(license) {}
+// TODO: Create a function that returns a license badge based on which license is passed in
+// If there is no license, return an empty string
+function renderLicenseBadge(license) {
+	if (license === "MIT") {
+		return "[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)";
+	}
+}
 
-// // TODO: Create a function that returns the license link
-// // If there is no license, return an empty string
-// function renderLicenseLink(license) {}
+// TODO: Create a function that returns the license link
+// If there is no license, return an empty string
+function renderLicenseLink(license) {}
 
-// // TODO: Create a function that returns the license section of README
-// // If there is no license, return an empty string
-// function renderLicenseSection(license) {}
+// TODO: Create a function that returns the license section of README
+// If there is no license, return an empty string
+function renderLicenseSection(license) {}
 
 // // TODO: Create a function to generate markdown for README
 // function generateMarkdown(data) {
@@ -34,31 +38,23 @@ function generateMarkdown(response) {
       -[username](#username)
       -[profile](#profile)
       
-      ${response.username}
       ##username:
-      
-          ${response.description}
+      ${response.username}
       ##description:
-      
-          ${response.installation}
+      ${response.description}
       ##installation:
-      
-          ${response.usage}
+      ${response.installation}
       ##usage:
-      
-          ${response.license}
+      ${response.usage}
       ##licenses:
-      
-          ${response.guidelines}
+      ${response.license}
       ##contribution:
-      
-          ${response.test}
+      ${response.guidelines}
       ##test:
-      
-          ${response.email}
+      ${response.test}
       ##email:
-      
-          ${response.profile}
+      ${response.email}
       ##profile:
+      ${response.profile}
       `;
 }
