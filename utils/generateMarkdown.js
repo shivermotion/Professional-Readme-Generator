@@ -25,36 +25,36 @@ module.exports = generateMarkdown;
 
 function generateMarkdown(response) {
 	return `
+# ${response.title}
+====
       
-      # ${response.title}
-      
-      # Table of Content
-      -[description](#description)
-      -[installation](#installation)
-      -[usage](#usage)
-      -[licenses](#licenses)
-      -[contribution](#contribution)
-      -[test](#test)
-      -[username](#username)
-      -[profile](#profile)
-      
-      ##username:
-      ${response.username}
-      ##description:
-      ${response.description}
-      ##installation:
-      ${response.installation}
-      ##usage:
-      ${response.usage}
-      ##licenses:
-      ${response.license}
-      ##contribution:
-      ${response.guidelines}
-      ##test:
-      ${response.test}
-      ##email:
-      ${response.email}
-      ##profile:
-      ${response.profile}
-      `;
+# Table of Content
+-[description](#description)
+-[installation](#installation)
+-[usage](#usage)
+-[licenses](#licenses)
+-[contribution](#contribution)
+-[test](#test)
+-[username](#username)
+-[profile](#profile)
+
+##username:
+${response.username}
+##description:
+${response.description}
+##installation:
+${response.installation}
+##usage:
+${response.usage}
+##licenses:
+${response.license}
+##contribution:
+${response.guidelines}
+##test:
+${response.test}
+##email:
+${response.email}
+##profile:
+${response.profile}
+`;
 }
