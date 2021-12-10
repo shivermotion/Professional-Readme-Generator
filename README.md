@@ -1,7 +1,6 @@
 
-# ReadMe-Generator
-====
-      
+# ReadMe-Gen
+
 # Table of Content
 -[description](#description)
 -[installation](#installation)
@@ -12,21 +11,21 @@
 -[username](#username)
 -[profile](#profile)
 
-##username:
+## Username:
 shivermotion
-##description:
-a quick and easy readme generator with markdown
-##installation:
-n/a
-##usage:
-n/a
-##licenses:
+## Description :
+a quick and easy readme generator with markdown.
+## Installation :
+
+## Usage :
+
+## Licenses :
 MIT
-##contribution:
-n/a
-##test:
-n/a
-##email:
+## Contribution:
+
+## Test:
+
+## Email:
 jason.day.blue@gmail.com
-##profile:
-shivermotion
+## Profile:
+https://github.com/shivermotion

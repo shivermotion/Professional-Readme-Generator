@@ -26,8 +26,7 @@ module.exports = generateMarkdown;
 function generateMarkdown(response) {
 	return `
 # ${response.title}
-====
-      
+
 # Table of Content
 -[description](#description)
 -[installation](#installation)
@@ -38,23 +37,23 @@ function generateMarkdown(response) {
 -[username](#username)
 -[profile](#profile)
 
-##username:
+## Username:
 ${response.username}
-##description:
+## Description :
 ${response.description}
-##installation:
+## Installation :
 ${response.installation}
-##usage:
+## Usage :
 ${response.usage}
-##licenses:
+## Licenses :
 ${response.license}
-##contribution:
+## Contribution:
 ${response.guidelines}
-##test:
+## Test:
 ${response.test}
-##email:
+## Email:
 ${response.email}
-##profile:
+## Profile:
 ${response.profile}
 `;
 }
