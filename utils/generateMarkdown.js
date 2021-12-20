@@ -46,7 +46,7 @@ ${response.installation}
 ## Usage :
 ${response.usage}
 ## Licenses :
-${response.license}
+${renderLicenseBadge()}
 ## Contribution:
 ${response.guidelines}
 ## Test:
