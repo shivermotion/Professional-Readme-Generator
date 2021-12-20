@@ -1,5 +1,5 @@
 
-# ReadMe-Gen
+# Employee-Tracker
 
 # Table of Content
 -[description](#description)
@@ -14,13 +14,13 @@
 ## Username:
 shivermotion
 ## Description :
-a quick and easy readme generator with markdown.
+a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 ## Installation :
 
 ## Usage :
 
 ## Licenses :
-MIT
+Apache 2.0
 ## Contribution:
 
 ## Test:
