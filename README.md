@@ -18,7 +18,7 @@ a command-line application from scratch to manage a company's employee database,
 
 ## Licenses :
 
-MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contribution:
 
