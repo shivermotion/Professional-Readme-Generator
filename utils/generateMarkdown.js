@@ -31,10 +31,11 @@ function renderLicenseLink(response) {
 // If there is no license, return an empty string
 function renderLicenseSection(response) {
 	if (response.license === "MIT" || "GNU" || "Apache 2.0") {
-		return `## Licenses :
-		${renderLicenseBadge(response)}
-		${renderLicenseLink(response)}
-		`;
+		return `
+	## Licenses :
+	${renderLicenseBadge(response)}
+	${renderLicenseLink(response)}
+	`;
 	} else {
 		return "";
 	}
