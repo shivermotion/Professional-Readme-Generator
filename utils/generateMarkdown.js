@@ -32,50 +32,49 @@ function renderLicenseLink(response) {
 function renderLicenseSection(response) {
 	if (response.license === "MIT" || "GNU" || "Apache 2.0") {
 		return `
-	## Licenses :
-	${renderLicenseBadge(response)}
-	${renderLicenseLink(response)}
-	`;
+## Licenses:
+${renderLicenseBadge(response)}
+${renderLicenseLink(response)}
+`;
 	} else {
 		return "";
 	}
 }
 
 module.exports = generateMarkdown;
+
 // TODO: Create a function to generate markdown for README
 
 function generateMarkdown(response) {
 	return `
-	# ${response.title}
+# ${response.title}
 	
-	# Table of Content
-	-[description](#description)
-	-[installation](#installation)
-	-[usage](#usage)
-	-[licenses](#licenses)
-	-[contribution](#contribution)
-	-[test](#test)
-	-[username](#username)
-	-[profile](#profile)
-	
-	## Username:
-	${response.username}
-	## Description :
-	${response.description}
-	## Installation :
-	${response.installation}
-	## Usage :
-	${response.usage}
+# Table of Content
+-[description](#description)
+-[installation](#installation)
+-[usage](#usage)
+-[licenses](#licenses)
+-[contribution](#contribution)
+-[test](#test)
+-[username](#username)
+-[profile](#profile)
 
-	${renderLicenseSection(response)}
-
-	## Contribution:
-	${response.guidelines}
-	## Test:
-	${response.test}
-	## Email:
-	${response.email}
-	## Profile:
-	${response.profile}
-	`;
+## Username:
+${response.username}
+## Description:
+${response.description}
+## Installation:
+${response.installation}
+## Usage:
+${response.usage}
+${renderLicenseSection(response)}
+## Contribution:
+${response.guidelines}
+## Test:
+${response.test}
+## Email:
+${response.email}
+## Profile:
+${response.profile}
+`;
 }
