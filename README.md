@@ -2,7 +2,7 @@
 # pro-readme-generator
 ![readmemockup](https://user-images.githubusercontent.com/75548830/146890921-0ebe28bd-19ba-4e4a-b0c2-a27e6845372b.png)
 
-### Repo: https://github.com/shivermotion/Professional-Readme-Generator
+### Repo: https://github.com/shivermotion/Professional-Readme-Generator Walkthrough: https://watch.screencastify.com/v/0qsBouSbGmA44cjEtmQM
 # Table of Content
 -[description](#description)
 -[installation](#installation)
